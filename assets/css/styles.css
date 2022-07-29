@@ -31,3 +31,46 @@ a {
 .section__text {
   text-align: center;
 }
+
+#carousel {
+  padding-bottom: 60px;
+}
+
+#carousel img {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  border-radius: 5px;
+}
+
+.carousel-text {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+#carousel .carousel-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item {
+  position: relative;
+}
+
+/* carosel area end */
