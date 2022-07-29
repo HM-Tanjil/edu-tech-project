@@ -74,3 +74,17 @@ a {
 }
 
 /* carosel area end */
+
+/* course area start */
+
+.course__item {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+.course__item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+/* course area end */
