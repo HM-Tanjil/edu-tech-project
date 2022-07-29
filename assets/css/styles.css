@@ -1,0 +1,33 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-gap {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.row-gap {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section__text {
+  text-align: center;
+}
